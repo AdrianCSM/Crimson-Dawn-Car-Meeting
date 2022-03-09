@@ -1,180 +1,313 @@
-@import url('http://fonts.cdnfonts.com/css/cocogoose');
+@import url("http://fonts.cdnfonts.com/css/cocogoose");
 
 /* This is the mobile styling */
 
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 .vanish {
-    display: none;
+  display: none;
 }
 
 .hero-header {
-    display: flex;
-    width: 100%;
-    height: 100%;
-    background-image: url("images/meet-bg.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    flex-direction:column;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-image: url("images/meet-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-direction: column;
 }
 
 .subtitle {
-    padding: 2% 4% 2% 4%;
-    padding-bottom: 0%;
-    font-family: 'Lato', sans-serif;
-    font-weight: 600;
-    font-size: 24px;
-    color: rgb(216, 57, 29);
+  padding: 2% 4% 2% 4%;
+  padding-bottom: 0%;
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  color: rgb(216, 57, 29);
 }
 
 .title {
-    padding: 2% 4% 2% 4%;
-    padding-top: 0%;
-    background-image: linear-gradient(rgba(255, 38, 0, 0.76), rgba(255, 51, 0, 0.575)), url("images/meet-bg.jpg");
-    background-repeat: repeat;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-transform: uppercase;
-    font-size: 48px;
-    font-family: 'Cocogoose', sans-serif;
-    -webkit-font-smoothing: antialiased;
-    font-weight: 700;
+  padding: 2% 4% 2% 4%;
+  padding-top: 0%;
+  background-image: linear-gradient(
+      rgba(255, 38, 0, 0.76),
+      rgba(255, 51, 0, 0.575)
+    ),
+    url("images/meet-bg.jpg");
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
+  font-size: 48px;
+  font-family: "Cocogoose", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 700;
 }
 
 .summit-description {
-    margin: auto;
-    background-color: rgb(223, 223, 223);
-    font-family: Lato, sans-serif;
-    padding: 3%;
-    border: solid 1px white;
-    border-radius: 3px;
-    width: 90%;
-    color: rgb(77, 77, 77);
+  margin: auto;
+  background-color: rgb(223, 223, 223);
+  font-family: Lato, sans-serif;
+  padding: 3%;
+  border: solid 1px white;
+  border-radius: 3px;
+  width: 90%;
+  color: rgb(77, 77, 77);
 }
 
 .date {
-    font-family: 'COCOGOOSE', sans-serif;
-    font-weight: 700;
-    font-size: 32px;
-    background-color: rgb(223, 223, 223);
-    padding: 2% 4% 1% 4%;
-    color: rgb(77, 77, 77);
+  font-family: "COCOGOOSE", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  background-color: rgb(223, 223, 223);
+  padding: 2% 4% 1% 4%;
+  color: rgb(77, 77, 77);
 }
 
 .location {
-    font-family: 'Lato', sans-serif;
-    font-size: 18px;
-    font-weight: 500;
-    background-color: rgb(223, 223, 223);
-    padding: 1% 4% 2% 4%;
-    color: rgb(77, 77, 77);
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  background-color: rgb(223, 223, 223);
+  padding: 1% 4% 2% 4%;
+  color: rgb(77, 77, 77);
 }
 
 .main-program {
-    background-color: #272b30;
-    background-image: url('/images/main-bg.png');
-    display: flex;
-    flex-direction: column
+  background-color: #272b30;
+  background-image: url("/images/main-bg.png");
+  display: flex;
+  flex-direction: column;
 }
 
 .program {
-    color: white;
-    border-bottom: solid 1px rgb(216, 57, 29);
-    margin: auto;
-    padding: 2% 0 2% 0;
-    font-family: 'Lato', sans-serif;
-    font-size: 22px;
-    font-weight: 500;
-    margin-bottom: 2%;
+  color: white;
+  border-bottom: solid 1px rgb(216, 57, 29);
+  margin: auto;
+  padding: 2% 0 2% 0;
+  font-family: "Lato", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 2%;
 }
 
 .events-program {
-    background-color: rgba(87, 87, 87, 0.5);
-    display: grid;
-    grid-template-columns: 10% 22.5% auto;
-    grid-template-rows: 1fr;
-    grid-gap: 0.5rem;
-    margin-bottom: 0.5rem;
-    align-items: center;
-    padding: 1rem;
-    margin-left: 2%;
-    margin-right: 2%;
+  background-color: rgba(87, 87, 87, 0.5);
+  display: grid;
+  grid-template-columns: 10% 22.5% auto;
+  grid-template-rows: 1fr;
+  grid-gap: 0.5rem;
+  margin-bottom: 0.5rem;
+  align-items: center;
+  padding: 1rem;
+  margin-left: 2%;
+  margin-right: 2%;
 }
 
 .event-title {
-    font-family: 'Lato', sans-serif;
-    color: orangered;
-    font-size: 16px;
+  font-family: "Lato", sans-serif;
+  color: orangered;
+  font-size: 16px;
 }
 
 .event-desc {
-    font-family: 'Lato', sans-serif;
-    color: white;
+  font-family: "Lato", sans-serif;
+  color: white;
 }
 
 .join {
-    display: inline-block;
-    font-family: 'Lato', sans-serif;
-    font-size: 24px;
-    padding: 4% 4% 4% 4%;
-    margin: auto;
-    color: white;
-    background-color: #ec5442;
-    border: none;
-    cursor: pointer;
-    text-align: center;
-    margin-bottom: 2%;
-    margin-top: 1%;
+  display: inline-block;
+  font-family: "Lato", sans-serif;
+  font-size: 24px;
+  padding: 4% 4% 4% 4%;
+  margin: auto;
+  color: white;
+  background-color: #ec5442;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  margin-bottom: 2%;
+  margin-top: 1%;
 }
 
 .sponsors {
-    background-color: rgb(70, 70, 70);
-    display: flex;
-    flex-direction: column
+  background-color: rgb(70, 70, 70);
+  display: flex;
+  flex-direction: column;
 }
 
 .partners-title {
-    color: white;
-    border-bottom: solid 1px rgb(216, 57, 29);
-    margin: auto;
-    padding: 2% 0 2% 0;
-    font-family: 'Lato', sans-serif;
-    font-size: 22px;
-    font-weight: 500;
-    margin-bottom: 2%;
+  color: white;
+  border-bottom: solid 1px rgb(216, 57, 29);
+  margin: auto;
+  padding: 2% 0 2% 0;
+  font-family: "Lato", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 2%;
 }
 
-.partners  {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    margin-bottom: 5%;
+.partners {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 5%;
 }
 
 .logos {
-    width: 8rem;
-    height: 2rem;
-    margin: 0.2em;
-    margin-top: 2rem;
+  width: 8rem;
+  height: 2rem;
+  margin: 0.2em;
+  margin-top: 2rem;
+  filter: grayscale(100);
 }
 
 .cc {
-    display: grid;
-    grid-template-columns: 33% 66%;
-    background-color: white;
+  display: grid;
+  grid-template-columns: 33% 66%;
+  background-color: white;
 }
 
 .cc-desc {
-    font-family: 'Lato', sans-serif;
-    margin: auto;
-    padding: auto;
+  font-family: "Lato", sans-serif;
+  margin: auto;
+  padding: auto;
 }
 
 .cc img {
-    width: 80%;
+  width: 80%;
+}
+
+.center {
+  text-align: center;
+}
+
+.hero-desc {
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  color: gray;
+  line-height: 25px;
+  margin-bottom: 30px;
+  background-color: white;
+  border: solid 1px dimgray;
+  margin: 2% 2% 0 2%;
+}
+
+.hero-contacts {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: rgb(202, 202, 202);
+}
+
+.hero-contacts > .content {
+  font-family: "Lato", sans-serif;
+  font-size: 13px;
+  line-height: 16px;
+  color: #313131;
+  text-decoration: none;
+}
+
+.hero-contacts > .content > a {
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    color: #1f1f1f;
+    text-decoration: none;
+}
+
+.about-logo {
+  font-family: "Lato", sans-serif;
+  margin: 0 30px;
+}
+
+.about-title {
+  font-family: "Lato", sans-serif;
+  font-size: 22px;
+  padding-top: 5%;
+}
+
+.about-logo--desc {
+  font-family: "Lato", sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+  color: #272a31;
+  margin-top: 10px;
+}
+
+.about-logo > img {
+  height: 180px;
+  margin-top: 15px;
+}
+
+.past {
+  margin: 0 30px;
+}
+
+.heroDesc {
+  font-family: "Lato", sans-serif;
+  font-size: 12px;
+  line-height: 20px;
+  color: #272a31;
+}
+
+.image-box {
+  margin: 20px 0;
+}
+
+.image-box > * + * {
+  margin-top: 30px;
+}
+
+.box-1 {
+  background-image: url("./images/meet1.jpg");
+}
+
+.box-2 {
+  background-image: url("./images/meet2.jpg");
+}
+
+.box-1,
+.box-2 {
+    font-family: "Lato", sans-serif;
+  position: relative;
+  height: 180px;
+  background-position: center center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  color: #fff;
+}
+
+h2 {
+  z-index: 100;
+}
+
+.box-2 > h2,
+.box-1 > p,
+.box-2 > p {
+  z-index: 100;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(236, 82, 66, 0.5);
+  width: 100%;
+  height: 100%;
+}
+
+.hero-top {
+    background-image: url("images/meet-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
