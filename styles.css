@@ -195,7 +195,7 @@
   line-height: 25px;
   margin-bottom: 30px;
   background-color: white;
-  border: solid 1px dimgray;
+  border: solid 1px rgb(180, 180, 180);
   margin: 2% 2% 0 2%;
 }
 
@@ -310,4 +310,145 @@ h2 {
     background-image: url("images/meet-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+/* THis is the desktop styling */
+
+@media only screen and (min-width: 768px) {
+    .subtitle {
+        padding-left: 18%;
+    }
+
+    .title {
+        padding-left: 18%;
+    }
+
+    .summit-description {
+        margin: auto;
+        width: 60%;
+        padding: 2%;
+        font-size: 16px;
+    }
+
+    .date {
+        padding-left: 18%;
+    }
+
+    .location {
+        padding-left: 18%;
+        padding-bottom: 10%;
+    }
+
+    .events {
+        padding: 0 10% 0 10%;
+        display: flex;
+    }
+
+    .events-program {
+        margin-left: 0.5%;
+        margin-right: 0.5%;
+        grid-template-columns: 100%;
+        grid-template-rows: 10% 20% auto;
+        padding-bottom: 5%;
+        
+    }
+
+    .events-program:hover {
+        border: solid 2px white;
+        transform: scale(1.05)
+    }
+
+    .img {
+        justify-self: center;
+        align-self: center;
+    }
+
+    .event-title {
+        justify-self: center;
+    }
+
+    .join {
+        display: none;
+    }
+
+    .show-more {
+        font-family: "Lato", sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        color: white;
+        display: block;
+        align-self: center;
+        padding: 4% 6% 6% 6%;
+    }
+
+    .title-about {
+        padding: 2% 4% 2% 4%;
+        padding-top: 0%;
+        background-image: linear-gradient(
+            rgba(255, 38, 0, 0.76),
+            rgba(255, 51, 0, 0.575)
+          ),
+          url("images/meet-bg.jpg");
+        background-repeat: repeat;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-transform: uppercase;
+        font-size: 48px;
+        font-family: "Cocogoose", sans-serif;
+        -webkit-font-smoothing: antialiased;
+        font-weight: 700;
+    }
+
+    .subtitle-about {
+        padding: 2% 4% 2% 4%;
+        padding-bottom: 0%;
+        font-family: "Lato", sans-serif;
+        font-weight: 600;
+        font-size: 24px;
+        color: rgb(216, 57, 29);
+    }
+
+    .hero-desc {
+        width: 45%;
+        margin: auto;
+        padding: 1%;
+    }
+
+    .hero-container {
+        border-bottom: solid 2px gray;
+    }
+
+    .about-logo--desc {
+        width: 55%;
+        margin: auto;
+        padding-top: 5%;
+        color: gray;
+    }
+
+    .about-logo {
+        color: dimgray;
+        border-bottom: solid 2px rgb(168, 168, 168);
+        margin: auto;
+    }
+    
+    .about-title {
+        color: dimgray
+    }
+
+    .heroDesc {
+        color: gray;
+    }
+
+    .image-box {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .box-1,
+    .box-2 {
+        align-self: center;
+        justify-self: center;
+        margin: auto;
+        width: 35%
+    }
 }
