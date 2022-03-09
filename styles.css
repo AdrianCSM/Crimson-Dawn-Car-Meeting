@@ -7,8 +7,56 @@
   padding: 0;
 }
 
+.social {
+    display: none;
+}
+
+.logo {
+    display: none;
+}
+
+.nav-container {
+    display: none;
+}
+
+.mobile-menu {
+
+}
+
+.nav-desktop {
+    display: flex;
+}
+
 .vanish {
   display: none;
+}
+
+.title-about {
+    padding: 2% 4% 2% 4%;
+    padding-top: 0%;
+    background-image: linear-gradient(
+        rgba(255, 38, 0, 0.76),
+        rgba(255, 51, 0, 0.575)
+      ),
+      url("images/meet-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    font-size: 48px;
+    font-family: "Cocogoose", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 700;
+}
+
+.subtitle-about {
+    padding: 2% 4% 2% 4%;
+    padding-bottom: 0%;
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: rgb(216, 57, 29);
 }
 
 .hero-header {
@@ -450,5 +498,75 @@ h2 {
         justify-self: center;
         margin: auto;
         width: 35%
+    }
+
+    .mobile-menu {
+        display: none;
+    }
+
+    .nav-container {
+        display: flex;
+        /* justify-content: space-between; */
+    }
+
+    .nav-desktop {
+        display: flex;
+        background-color: white;
+        width: auto;
+    }
+
+    .nav-list {
+        padding-right: 0;
+        padding-top: 10%;
+        display: flex;
+        list-style: none;
+    }
+
+    .link a {
+        font-family: "Lato", sans-serif;
+        font-weight: 500;
+        color: dimgray;
+        text-decoration: none;
+    }
+
+    .link {
+        padding: 2% 5% 2% 5%;
+    }
+
+    .link a:hover {
+        color: #ec5442;
+    }
+
+    .logo img {
+        padding-left: 25%;
+        width: 40%;
+    }
+
+    .logo {
+        display: block;
+        padding-right: 30%;
+    }
+
+    .social {
+        display: block;
+        background-color:rgb(53, 53, 53)
+    }
+
+    .social-row {
+        display: flex;
+        list-style: none;
+        color: #fff;
+        padding: 2%;
+        justify-content: flex-end;
+    }
+
+    .social-link {
+        font-family: "Lato", sans-serif;
+        padding-left: 3%;
+    }
+
+    .social-link img {
+        width: 10%;
+        padding: 0;
     }
 }
