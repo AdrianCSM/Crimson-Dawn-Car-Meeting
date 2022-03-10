@@ -1,6 +1,3 @@
-const headerDOMElement = document.querySelector('.shared_header');
-
-
 // Mobile menu implementation
 const hamburgerMenuIcon = document.querySelector('.hamburger_menu_icon');
 const sideNavigationBar = document.querySelector('.mobile_side_nav');

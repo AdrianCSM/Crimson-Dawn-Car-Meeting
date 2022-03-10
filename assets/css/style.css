@@ -8,6 +8,11 @@
   margin-bottom: 0;
 }
 
+.logo img {
+  border: 2px solid #000;
+  border-radius: 8px;
+}
+
 .navbar a img {
   width: 50%;
 }
@@ -139,11 +144,6 @@ a {
 .logo {
   padding-top: 4px;
   padding-bottom: 4px;
-}
-
-.logo img {
-  border: 2px solid #000;
-  border-radius: 8px;
 }
 
 .nav-small {
