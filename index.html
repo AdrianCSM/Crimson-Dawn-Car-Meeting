@@ -1,259 +1,253 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/4f7a8bfb95.js" crossorigin="anonymous"></script>
-    <title>2022 Crimson Dawn Meeting</title>
-</head>
-
-<body>
-
-  
-<main>
-
-    <header>
-
-        <div class="social ">
-            <ul class="social-row">
-                <li class="social-link">
-                    <i class="fa-brands fa-facebook-f"></i>
-                </li>
-
-                <li class="social-link">
-                    <i class="fa-brands fa-twitter"></i>
-                </li>
-
-                <li class="social-link">
-                    <p>English</p>
-                </li>
-
-                <li class="social-link">
-                    <p>My page</p>
-                </li>
-
-                <li class="social-link">
-                    <p>Login</p>
-                </li>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Crimson Dawn Car Meeting</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+    <header class = "shared_header">
+      <div class="d-none d-md-block">
+        <nav class="navbar navbar-expand-sm bg-dark-custom text-white">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link mr-2" href="#">
+                  <i class="fa fa-facebook text-white"></i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mr-2" href="#">
+                  <i class="fa fa-twitter text-white"></i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">
+                  English
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">
+                  My Page
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">
+                  Logout
+                </a>
+              </li>
             </ul>
-        </div>
-
-        <div class="nav-container">
-
-            <a href="index.html" class="logo">
-                <img src="images/logo.png" alt="logo">
+        </nav>
+        <nav class="navbar navbar-expand-sm bg-white">
+            <a class="navbar-brand p-0 m-0" href="index.html">   
+                <img class="img-fluid" src="assets/images/logo.png" alt="Logo">
             </a>
-
-            <!-- This is the mobile nav menu -->
-
-            <nav class="mobile-menu">
-                    <img src="" alt="menu" class="menu">
-                <ul class="nav-list-mobile vanish">
-                    <li class="cross"><a href="javascript:void(0)" class="link">&times;</a></li>
-
-                    <li class="mobile-link">
-                        <a href="pages/about.html">About</a>
-                    </li>
-
-                    <li class="mobile-link">
-                        <a href="#">Program</a>
-                    </li>
-
-                    <li class="mobile-link">
-                        <a href="#">Join</a>
-                    </li>
-                        
-                    <li class="mobile-link">
-                        <a href="#">Sponsor</a>
-                    </li>
-                        
-                    <li class="mobile-link">
-                        <a href="#">News</a>
-                    </li>
-                </ul>
-            </nav>
-
-            <!-- This is the desktop nav-bar -->
-
-            <nav class="nav-desktop">
-                <ul class="nav-list">
-                    <li class="link">
-                        <a href="pages/about.html">About</a>
-                    </li>
-
-                    <li class="link">
-                        <a href="#">Program</a>
-                    </li>
-
-                    <li class="link">
-                        <a href="#">Join</a>
-                    </li>
-                        
-                    <li class="link">
-                        <a href="#">Sponsor</a>
-                    </li>
-                        
-                    <li class="link">
-                        <a href="#">News</a>
-                    </li>
-                </ul>
-            </nav>
-
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link pr-5" href="index.html">
+                  Home
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link pr-5" href="about.html">
+                  About
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link pr-5" href="#">
+                  Join
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link pr-5" href="#">
+                  Sponsor
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link pr-5" href="#">
+                  News
+                </a>
+              </li>
+              <li class="nav-item pr-4 pl-4 campaign">
+                <a class="nav-link orange pr-5" href="#">
+                  CM Campaign
+                </a>
+              </li>
+            </ul>
+        </nav>
         </div>
+        <nav class="toggle d-md-none d-xs-block">
+        <img src="assets/images/menu.png" alt="hamburger menu" class="hamburger_menu_icon" />
+        <ul class="mobile_side_nav">
+          <li class="menu_link closebtn"><a href="javascript:void(0)">&times;</a></li>
+          <li class="menu_link"><a href="index.html" class="menulink">Home</a><hr class="section_title_hr"/></li>
+          <li class="menu_link"><a href="about.html" class="menulink">About</a><hr class="section_title_hr"/></li>
+          <li class="menu_link"><a href="#">Join</a><hr class="section_title_hr"/></li>
+          <li class="menu_link"><a href="#">Sponsor</a><hr class="section_title_hr"/></li>
+          <li class="menu_link"><a href="#">News</a><hr class="section_title_hr"/></li>
+        </ul>
+        </nav>
     </header>
 
-            <!-- This is the Hero Header -->
+    <main class="parent_main">
+       <section class="container-fluid jumbotron slider intro_header pr-5">
+          <div class="row">
+           <div class="intro col-sm-12 mt-5">
+            <h3 class = "hello_intro orange text-md-left text-center">Tokyo's Nightmare</h3>
+            <h1 class="text-img-effect font-weight-bold font-style-medium orange text-md-left text-center">Crimson Dawn</h1>
+            <h1 class="text-img-effect font-weight-bold orange text-md-left text-center">Car Meeting</h1>
+            <h1 class="text-img-effect font-weight-bold orange text-md-left text-center">2022</h1>
+            <p class="p-4 intro_description text-dark">
+              An amazing car meeting during the best sunsets in the whole world. This is the best place to show your tuning, mods and take pictures. 
+              It will take place in Japan, Tokyo, during the "Red Sun" sunsets.
+            </p>
+            <h2 class="font-weight-bold mb-3">2022.08.18(Thu) ~ 21(Sun)</h2>
+            <p>@ Akihabara UDX parkade - lower levels.</p>
+           </div>
+          </div>
+       </section>
 
-            <div class="hero-header">
+      <section class="container-fluid main_program">
+        <div class="row pt-3 mb-5">
+          <div class="col-12">
+            <h3 class="text-center section_title text-white">Main program</h3>
+            <hr class="section_title_hr">
+          </div>
+        </div>
+        <ul class="row program d-flex flex-row justify-content-center">
+          <li class="col-12 col-md-3 pr-2 pl-0 mr-1">
+            <article class="program-block text-center row mb-5 p-4 bg-dark-light-custom">
+              <div class="col-sm-2 col-12 col-md-12 pr-0 pl-0">
+               <img src="assets/images/present-2.png" alt="lecture"/>
+              </div>
+              <h5 class="col-sm-5 col-12 col-md-12 pr-0 pl-0 orange section-subtitle">
+                Presenting
+              </h5>
+              <p class="custom_p_tag col-sm-5 col-12 col-md-12 pb-4 pr-0 pl-0 text-white">
+                Every participant has the oportunity to present their car and show his mods.
+              </p>
+            </article>
+          </li>
+          <li class="col-12 col-md-3 pr-2 pl-0 mr-1">
+            <article class="program-block text-center row mb-5 p-4 bg-dark-light-custom">
+              <div class="col-sm-2 col-12 col-md-12 pr-0 pl-0">
+               <img src="assets/images/sound-2.png" alt="lecture"/>
+              </div>
+              <h5 class="col-sm-5 col-12 col-md-12 pr-0 pl-0 orange section-subtitle">
+                Sound Test
+              </h5>
+              <p class="custom_p_tag col-sm-5 col-12 col-md-12 pb-4 pr-0 pl-0 text-white">
+                This is the time when everyone will show the car's whine and sutututu.
+              </p>
+            </article>
+          </li>
+          <li class="col-12 col-md-3 pr-2 pl-0 mr-1">
+            <article class="program-block text-center row mb-5 p-4 bg-dark-light-custom">
+              <div class="col-sm-2 col-12 col-md-12 pr-0 pl-0">
+               <img src="assets/images/drift-2.png" alt="lecture"/>
+              </div>
+              <h5 class="col-sm-5 col-12 col-md-12 pr-0 pl-0 orange section-subtitle">
+                Drifting
+              </h5>
+              <p class="custom_p_tag col-sm-5 col-12 col-md-12 pb-4 pr-0 pl-0 text-white">
+                We will move our location so the cars can drift around, doing donuts and everything else.
+              </p>
+            </article>
+          </li>
+          <li class="col-12 col-md-3 pr-2 pl-0 mr-1">
+            <article class="program-block text-center row mb-5 p-4 bg-dark-light-custom">
+              <div class="col-sm-2 col-12 col-md-12 pr-0 pl-0">
+               <img src="assets/images/approve-2.png" alt="lecture"/>
+              </div>
+              <h5 class="col-sm-5 col-12 col-md-12 pr-0 pl-0 orange section-subtitle">
+                Contest
+              </h5>
+              <p class="custom_p_tag col-sm-5 col-12 col-md-12 pb-4 pr-0 pl-0 text-white">
+                We will gather votes, and the person that has the most, will get an Akarprovic Exhaust for his car.
+              </p>
+            </article>
+          </li>
+          <li class="col-12 col-md-3 pr-3 pl-0 mr-1">
+            <article class="program-block text-center row mb-5 p-4 bg-dark-light-custom">
+              <div class="col-sm-2 col-12 col-md-12 pr-0 pl-0">
+               <img src="assets/images/winner-2.png" alt="lecture"/>
+              </div>
+              <h5 class="col-sm-5 col-12 col-md-12 pr-0 pl-0 orange section-subtitle">
+                The Reveal
+              </h5>
+              <p class="custom_p_tag col-sm-5 col-12 col-md-12 pb-4 pr-0 pl-0 text-white">
+                We will reveal the winner. The other contenstants will get something as well, but it's a surprize.
+              </p>
+            </article>
+          </li>
+        </ul>
+        <div class="row mb-5">
+          <div class="col-12 text-center pb-4 d-none d-md-block">
+            <a href="#" class="text-white">
+              SEE THE WHOLE PROGRAM
+            </a>
+          </div>
+          <div class="col-12 text-center d-md-none d-xs-block">
+            <a href="#" class="text-white cta btn rounded-0 bg-orange mb-3 pr-5 pl-5 pt-4 pb-4">
+              Join Crimson Dawn 22
+            </a>
+          </div>
+        </div>
+      </section>
 
- <!-- This is the mobile nav menu -->
+      <section class="container-fluid">
+        <div class="row pt-3 mb-5">
+          <div class="col-12">
+            <h3 class="text-center section-title">Featured speakers</h3>
+            <hr class="section_speaker_hr">
+          </div>
+        </div>
+        <ul class="row speakers d-flex flex-row">
+          <!--List of Speakers Dynamically Fetched from JS-->
+        </ul>
+     </section>
 
- <nav class="mobile-menu">
-    <span class="menu"><i class="fa-solid fa-bars"></i></span>
-    <ul class="nav-list-mobile vanish">
-        <li class="cross"><a href="javascript:void(0)" class="link">&times;</a></li>
+      <section class="container-fluid partners-section text-white bg-dark-custom pb-3">
+        <div class="row pt-3 mb-3">
+        <div class="col-12">
+          <h3 class="text-center section-title">Partners</h3>
+          <hr class="hr-title">
+        </div>
+        </div>
+        <ul class="partners d-flex flex-row">
+          <li>
+            <img src="assets/images/sponsors/hoonigan-logo.png" alt="Hoonigan">
+          </li>
+          <li>
+            <img src="assets/images/sponsors/esprit.png" alt="Esprit">
+          </li>
+          <li>
+            <img src="assets/images/sponsors/monster-energy.png" alt="Monster Energy">
+          </li>
+          <li>
+            <img src="assets/images/sponsors/red-bull.png" alt="Redbull">
+          </li>
+          <li>
+            <img src="assets/images/sponsors/akrapovic.png" alt="Akrapovic">
+          </li>
+        </ul>
+    </section>
+   </main>
 
-        <li class="mobile-link">
-            <a href="pages/about.html">About</a>
-        </li>
-
-        <li class="mobile-link">
-            <a href="#">Program</a>
-        </li>
-
-        <li class="mobile-link">
-            <a href="#">Join</a>
-        </li>
-            
-        <li class="mobile-link">
-            <a href="#">Sponsor</a>
-        </li>
-            
-        <li class="mobile-link">
-            <a href="#">News</a>
-        </li>
-    </ul>
-
-                <p class="subtitle">
-
-                    Tokyo's Nightmare
-
-                </p>
-
-                <h1 class="title">
-
-                    CRIMSON DAWN <br>
-                    CAR MEETING <br>
-                    2022
-
-                </h1>
-
-                <p class="summit-description">
-
-                    An amazing car meeting during the best sunsets in the whole world. This is the best place to show your tuning, mods and take pictures. 
-                    It will take place in Japan, Tokyo, during the "Red Sun" sunsets.
-
-                </p>
-
-                <h3 class="date">
-
-                    2022.08.18 (Thu) ~ 21 (Sun)
-
-                </h3>
-
-                <p class="location">
-
-                    @ Akihabara UDX parkade - lower levels.
-
-                </p>
-            </div>
-
-            <!-- This is the program section  -->
-
-            <section class="main-program" id="Porgram">
-
-                <h4 class="program">
-                    Main Program
-                </h4>
-
-                <div class="events">
-
-                    <div class="events-program">
-                        <img src="/images/present-2.png" alt="presenter" class="img">
-                        <h5 class="event-title">Presenting</h5>
-                        <p class="event-desc">Every participant has the oportunity to present their car and show his mods.</p>
-                    </div>
-
-                    <div class="events-program">
-                        <img src="/images/sound-2.png" alt="speaker" class="img">
-                        <h5 class="event-title">Sound <br/>Test</h5>
-                        <p class="event-desc">This is the time when everyone will show the car's whine and sutututu.</p>
-                    </div>
-
-                    <div class="events-program">
-                        <img src="/images/drift-2.png" alt="drift" class="img">
-                        <h5 class="event-title">Drifting</h5>
-                        <p class="event-desc">We will move our location so the cars can drift around, doing donuts and everything else.</p>
-                    </div>
-
-                    <div class="events-program">
-                        <img src="images/approve-2.png" alt="approve" class="img">
-                        <h5 class="event-title">Contest</h5>
-                        <p class="event-desc">We will gather votes, and the person that has the most, will get an Akarprovic Exhaust for his car.</p>
-                    </div>
-
-                    <div class="events-program">
-                        <img src="images/winner-2.png" alt="winner" class="img">
-                        <h5 class="event-title">The reveal</h5>
-                        <p class="event-desc">We will reveal the winner. The other contenstants will get something as well, but it's a surprize.</p>
-                    </div>
-
-                </div>
-
-                <a href="/" class="show-more vanish">SEE THE WHOLE PROGRAM</a>
-                <button class="join">Join Crimson Dawn 22</button>
-
-            </div>
-                 
-            <!--  This is the speaker list, added dynamicaly -->
-
-            <div class="speakers-container">
-
-            </div>
-
-            <!-- This is the footer -->
-
-            <footer class="sponsors">
-                
-                <p class="partners-title">
-                    Partners
-                </p>
-
-                <div class="partners">
-                   
-                        <img src="images/hoonigan-logo.png" alt="Hoonigan" class="logos">
-                        
-                        <img src="images/akrapovic.png" alt="Akarprovic" class="logos">
-                  
-                        <img src="images/monster-energy.png" alt="MonsterEnergy" class="logos">
-                 
-                        <img src="images/red-bull.png" alt="RedBull" class="logos">
-                       
-                        <img src="images/esprit.png" alt="esprit" class="logos">
-                     
-                </div>
-
-                <div class="cc">
-                    <img src="images/logo.png" alt="logo">
-                    <p class="cc-desc">2022 Crimson Dawn Tokyo.<br>All rights reserved.</p>
-                </div>
-            </footer>
-</main>
-
-</body>
+   <footer class="shared_footer container-fluid p-4 bg-light">
+      <div class="row">
+        <div class="col-6">
+            <img src="assets/images/logo.png" class="footer_img" alt="Logo">
+        </div>
+        <div class="col-6">
+          <p>2022 Crimson Dawn <br>
+            All Rights Reserved </p>
+        </div>
+      </div>
+   </footer>
+   <script src="assets/js/menu.js"></script>
+   <script src="assets/js/dynamic.js"></script>
+  </body>
 </html>
