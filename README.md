@@ -21,15 +21,6 @@ My challenge was to build a conference website from scratch, using the template 
 - Stylelint (A mighty, modern linter that helps you avoid errors and enforce conventions in your styles).
 - ESlint (A mighty, modern linter that helps you avoid errors and enforce conventions in JavaScript codes)
 
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-The basic requirements for building the executable are:
-* A working browser application (Google chrome, Mozilla Fire fox, Microsoft edge ...)
-* VSCode or any other equivalent code editor
-* Node Package Manager (For installing packages like Lighthous, webhint & stylelint used for checking for debugging bad codes before deployment)
-
-
 ## Acknowledgement
 I have followed the [design](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) given by [Cindy Shin in Behance](https://www.behance.net/adagio07)
 
