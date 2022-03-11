@@ -1,6 +1,6 @@
 # Crimson Dawn Car Meeting | Capstone Project - Module 1
 
-> This is the final version of my project for the 5th week, Module 1. In this project I used all the knowledge I gathered from past weeks, and blended them nicely. [Link to video documentation](https://www.loom.com/share/67fb8fc898d24f04a047aa5a87d0e247) 
+> This is the final version of my project for the 5th week, Module 1. In this project I used all the knowledge I gathered from past weeks, and blended them nicely. [Link to video documentation](https://www.loom.com/share/74b53b162b4a4e6aae38acf6184d46bb) 
 ![screenshot](assets/images/demodesk.png)
 
 My challenge was to build a conference website from scratch, using the template from Behance. [Live Demo](https://adriancsm.github.io/First-Capstone-Project/). 😊
