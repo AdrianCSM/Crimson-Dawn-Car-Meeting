@@ -172,11 +172,11 @@ a {
 }
 
 .intro_description {
-  background-color: #f7f7f7;
+  background-color: #d6d6d6;
   font-family: 'Lato', sans-serif;
   border: 1px solid #fff;
   color: black;
-  width: 40%;
+  width: 50%;
 }
 
 .program-block {
@@ -251,6 +251,10 @@ ul {
 }
 
 @media screen and (max-width: 767px) {
+  .intro_header {
+    padding-left: 0;
+  }
+
   .hello_intro {
     font-size: 25px !important;
     margin-left: -10px;
