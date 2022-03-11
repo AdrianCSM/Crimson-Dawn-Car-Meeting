@@ -6,11 +6,16 @@
   background-image: url("../images/meet-bg.png");
   background-size: cover;
   margin-bottom: 0;
+  padding-left: 15%;
 }
 
 .logo img {
   border: 2px solid #000;
   border-radius: 8px;
+}
+
+.img-fluid {
+  padding-left: 15%;
 }
 
 .navbar a img {
